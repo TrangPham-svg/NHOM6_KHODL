@@ -1,0 +1,13 @@
+# Visual Studio & SSIS Junk Files
+.vs/
+*.user
+bin/
+obj/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# OS Files
+Thumbs.db
+.DS_Store
