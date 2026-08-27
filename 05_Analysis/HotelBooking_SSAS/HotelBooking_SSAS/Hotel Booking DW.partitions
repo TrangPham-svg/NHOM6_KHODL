@@ -1,0 +1,225 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="40650af6-93df-429e-b24e-16ba4b8fdfa8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hotel Booking DW</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Dim Agent</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d1928e05-6dae-478b-936b-449e183d9a99">
+          <ID>Dim Agent</ID>
+          <Name>Dim Agent</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="34912cb6-7070-4831-a991-5df572fcb073">
+            <DataSourceViewID>Hotel Booking DW</DataSourceViewID>
+            <TableID>dbo_Dim_Agent</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Date</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="029ec515-7b34-41b2-8e63-ef8fb6f6a520">
+          <ID>Dim Date</ID>
+          <Name>Dim Date</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c4e5cc8a-39e3-493c-91bd-0826835f0edd">
+            <DataSourceViewID>Hotel Booking DW</DataSourceViewID>
+            <TableID>dbo_Dim_Date</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Customer Type</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="10a6fdbd-1734-4d26-bdba-ce045d0d4fd6">
+          <ID>Dim Customer Type</ID>
+          <Name>Dim Customer Type</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9914a030-647d-43b5-a6bc-b60b61eed860">
+            <DataSourceViewID>Hotel Booking DW</DataSourceViewID>
+            <TableID>dbo_Dim_Customer_Type</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Deposit Type</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e079625f-6af6-4593-bbbe-8bf9a351904f">
+          <ID>Dim Deposit Type</ID>
+          <Name>Dim Deposit Type</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a5db7b10-1747-4f6c-825b-6d7cf7404af1">
+            <DataSourceViewID>Hotel Booking DW</DataSourceViewID>
+            <TableID>dbo_Dim_Deposit_Type</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Distribution Channel</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="6f8e7856-7d8d-4f63-a8b8-450dd7128456">
+          <ID>Dim Distribution Channel</ID>
+          <Name>Dim Distribution Channel</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e802dd27-43b9-4119-ad07-4c603f5275a5">
+            <DataSourceViewID>Hotel Booking DW</DataSourceViewID>
+            <TableID>dbo_Dim_Distribution_Channel</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Guest Country</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b7ad26c4-cf04-4638-aea4-dc718162294d">
+          <ID>Dim Guest Country</ID>
+          <Name>Dim Guest Country</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2ca020d6-194b-4f3f-9a73-d4ba7f12e66e">
+            <DataSourceViewID>Hotel Booking DW</DataSourceViewID>
+            <TableID>dbo_Dim_Guest_Country</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Hotel</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="562a9d82-84bc-47d9-95a0-dc01f7d61407">
+          <ID>Dim Hotel</ID>
+          <Name>Dim Hotel</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6b5a180d-5c64-4311-883c-867e082e134b">
+            <DataSourceViewID>Hotel Booking DW</DataSourceViewID>
+            <TableID>dbo_Dim_Hotel</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Market Segment</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="50b45895-4586-4263-8471-4f4a1fde9915">
+          <ID>Dim Market Segment</ID>
+          <Name>Dim Market Segment</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="383cbdbe-067e-4de6-9bcd-c524051a8356">
+            <DataSourceViewID>Hotel Booking DW</DataSourceViewID>
+            <TableID>dbo_Dim_Market_Segment</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Meal</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="7f3dd3de-a194-4994-9ca8-9d15234f90c2">
+          <ID>Dim Meal</ID>
+          <Name>Dim Meal</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c35422d9-dae2-4968-b01e-859893348d94">
+            <DataSourceViewID>Hotel Booking DW</DataSourceViewID>
+            <TableID>dbo_Dim_Meal</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Room Type</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="f7bd30a3-661b-4735-aec8-1584b969f7e6">
+          <ID>Dim Room Type</ID>
+          <Name>Dim Room Type</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="facc440d-024a-4b62-a485-e0622d46c964">
+            <DataSourceViewID>Hotel Booking DW</DataSourceViewID>
+            <TableID>dbo_Dim_Room_Type</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Booking</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e504a763-ae7d-4bd6-bf27-b8b419a49356">
+          <ID>Fact Booking</ID>
+          <Name>Fact Booking</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1981c2d0-dde9-4844-b228-334d0985cd7a">
+            <DataSourceViewID>Hotel Booking DW</DataSourceViewID>
+            <TableID>dbo_Fact_Booking</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
