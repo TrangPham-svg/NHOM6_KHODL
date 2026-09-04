@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="PKG_Load_HotelBooking"
   DTS:PackageType="5"
-  DTS:VersionBuild="166"
-  DTS:VersionGUID="{CE8911EB-55C5-4717-AECD-83F6D991708C}">
+  DTS:VersionBuild="172"
+  DTS:VersionGUID="{02166E16-D27B-4A68-9F23-11B13DD0E4E5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,7 +25,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=MSI\SQLEXPRESS;Initial Catalog=HotelBooking_DW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{A9A00873-AAC9-4FB9-8C2D-A7794446ADAC}LAPTOP-8O7J7URV\SQLEXPRESS.HotelBooking_DW;" />
+          DTS:ConnectionString="Data Source=LAPTOP-DHGLBUFC\SQLEXPRESS04;Initial Catalog=HotelBooking_DW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{A9A00873-AAC9-4FB9-8C2D-A7794446ADAC}LAPTOP-8O7J7URV\SQLEXPRESS.HotelBooking_DW;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -42,7 +42,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Nhom6_Khodl\Nhom6_Khodl\02_Python_Validation\output\error_log_bookings.csv">
+          DTS:ConnectionString="D:\Code C++\NHOM6_KHODL-main\02_Python_Validation\output\error_log_bookings.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -51,7 +51,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="hotel"
-              DTS:DTSID="{6F631D93-95E3-4013-81B4-0BBD5090DF9D}"
+              DTS:DTSID="{99841D14-A1D2-42B5-A42F-2E6800F319A6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -59,7 +59,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="is_canceled"
-              DTS:DTSID="{E5BDBE5B-7BE8-48C8-855B-6FBE3F6A426F}"
+              DTS:DTSID="{1633DDE1-969B-4049-A7BE-362DB2AF4A8B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -67,7 +67,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="lead_time"
-              DTS:DTSID="{0BADAA9F-9021-45C3-93A9-B1674B09B675}"
+              DTS:DTSID="{854C4BBC-EA3F-4887-ACF2-B9814CE8EEDF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -75,7 +75,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="arrival_date_year"
-              DTS:DTSID="{89EEA786-1618-4164-A3CE-F62ADC632238}"
+              DTS:DTSID="{285AE0A9-4105-4F60-A926-10939D4982D3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -84,7 +84,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="arrival_date_month"
-              DTS:DTSID="{EF20253F-49A4-4ADE-8506-243F72B46EDC}"
+              DTS:DTSID="{F3193B76-1393-40D7-867A-04176B52248D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -92,7 +92,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="arrival_date_week_number"
-              DTS:DTSID="{6AFC5EB7-7045-47EF-84DC-D019741B9295}"
+              DTS:DTSID="{6243F1B8-24E2-40A8-B2AA-CEFD4F0C926E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -100,7 +100,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="arrival_date_day_of_month"
-              DTS:DTSID="{1012D0FB-CB18-4B3F-9AF4-9B4DBC7CBEBB}"
+              DTS:DTSID="{2A530620-5462-40A1-BEA5-46D57C0249FA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -108,7 +108,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="arrival_date_month_num"
-              DTS:DTSID="{503B6839-0532-407B-BC62-20D11202E9FB}"
+              DTS:DTSID="{99061BDE-3111-4FD6-AD0A-78DD2B844216}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -117,7 +117,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="OLE DB Source.arrival_full_date"
-              DTS:DTSID="{189EC3FC-AE14-4F27-92DF-18D218388EF4}"
+              DTS:DTSID="{1BCB1629-8BC4-4B49-8E79-6271E5608CE4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -126,7 +126,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="booking_year_month"
-              DTS:DTSID="{8C635CA5-C073-46D0-9F7A-98A8E1778B4F}"
+              DTS:DTSID="{BCC9542D-D9AF-4C34-A47A-5FFF8EB566E9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -134,7 +134,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="stays_in_weekend_nights"
-              DTS:DTSID="{5762908F-75EF-4755-97EE-F5938306E9E7}"
+              DTS:DTSID="{A39900F7-0DEB-4056-BED4-C0118FB3033F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -142,7 +142,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="stays_in_week_nights"
-              DTS:DTSID="{CA67E923-5BAF-4ADF-ADA1-9ADDDAADE94D}"
+              DTS:DTSID="{49DB9AF1-957C-499C-939C-002FD00B3E10}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -150,7 +150,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="total_nights"
-              DTS:DTSID="{832D1A50-EDA2-4560-80B8-AD4A8854F7D4}"
+              DTS:DTSID="{1094EEBE-1906-4EE5-A694-360132B4F3A4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -158,7 +158,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="adults"
-              DTS:DTSID="{275F83D2-8030-40C8-87E3-59426B03A35C}"
+              DTS:DTSID="{7220265F-C871-4563-A6E2-CC84A0DE873F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -166,7 +166,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="children"
-              DTS:DTSID="{B8DDA5A2-FF9F-4719-BDDD-A93598F69FCF}"
+              DTS:DTSID="{F570D548-3AC0-4E02-ABD1-7C0B3B7C1381}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -174,7 +174,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="babies"
-              DTS:DTSID="{19730794-9C7E-4943-95F8-6649EB048D63}"
+              DTS:DTSID="{D4A065FD-6D05-4BED-B209-3E58083A3F70}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -182,7 +182,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="total_guests"
-              DTS:DTSID="{05514F1C-166A-40AB-B724-0D6D0BB03592}"
+              DTS:DTSID="{A347B3B3-A234-4D72-ADE9-A5DDFF1B4C14}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -191,7 +191,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="meal"
-              DTS:DTSID="{F1702459-B8D2-4454-9EC3-42BB8DB73829}"
+              DTS:DTSID="{B3069BD9-C6B7-43E1-8D8B-7B3DDA1502C4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -200,7 +200,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="country"
-              DTS:DTSID="{F11C8DD5-7FE3-4B70-81C3-A46A3DFE7CD7}"
+              DTS:DTSID="{FCA41957-1E25-4F03-BBD4-F9E1956C3930}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -209,7 +209,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="market_segment"
-              DTS:DTSID="{CA629B79-5A31-4EE3-9BC6-0B04EC7B3ED3}"
+              DTS:DTSID="{5F1D3DF0-94A4-4303-9E7F-89208694B76F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -218,7 +218,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="distribution_channel"
-              DTS:DTSID="{87DCF3BF-1E31-4174-9871-1D2C57A167E1}"
+              DTS:DTSID="{82C32D9D-965A-4DCF-BA23-81EBC510468F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -226,7 +226,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="is_repeated_guest"
-              DTS:DTSID="{4743484E-3B32-482E-B0AF-C656B2109891}"
+              DTS:DTSID="{4B270D88-10F9-4570-9B0F-F529417470AC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -234,7 +234,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="previous_cancellations"
-              DTS:DTSID="{1EE495C5-5AF8-4EAD-B0B3-80534C24DBF7}"
+              DTS:DTSID="{5A47001F-BB41-489E-899A-EC5F841DB949}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -242,7 +242,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="previous_bookings_not_canceled"
-              DTS:DTSID="{9CB3834A-6B0C-485F-8C38-FB81D8B656A7}"
+              DTS:DTSID="{A1E0458E-FF16-40BA-9ABC-D7E6DF915B9F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -251,7 +251,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="reserved_room_type"
-              DTS:DTSID="{A6D8A8DA-D4D5-49A8-B1DC-3D41E93F7FA1}"
+              DTS:DTSID="{36621349-26C2-4B60-AD34-BE187605CB26}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -260,7 +260,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="assigned_room_type"
-              DTS:DTSID="{600241FA-D525-48E7-BCB7-CBDD73AE79B2}"
+              DTS:DTSID="{51390714-8307-42F9-A5A4-EEF285916C27}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -268,7 +268,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="OLE DB Source.room_changed_flag"
-              DTS:DTSID="{8DAFD33C-0679-4290-B1F3-E53885B98480}"
+              DTS:DTSID="{D75F0523-CE73-44D2-80DC-F69BEFDBAC53}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -276,7 +276,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="booking_changes"
-              DTS:DTSID="{51B77C69-3FB9-40E6-B839-2F9FAD978749}"
+              DTS:DTSID="{3D0E3017-4440-4F97-B4A0-2E5D22B9F68A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -285,7 +285,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="deposit_type"
-              DTS:DTSID="{C89B8BB9-F63F-451E-AD18-13038FD8283C}"
+              DTS:DTSID="{8E664F45-3B7D-449C-BAD1-45BDCDEFE25C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -294,7 +294,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="agent"
-              DTS:DTSID="{71E2DFE5-AE2A-4A20-AF86-86812D9A7E72}"
+              DTS:DTSID="{1208777A-3AB2-44FA-BD37-7BCB1DB9BC3A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -303,7 +303,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="company"
-              DTS:DTSID="{77A8316F-B58F-4B95-AB88-1DFB7D1D0A86}"
+              DTS:DTSID="{195FA537-674A-477F-9CD3-0A73F2EC1EC4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -311,7 +311,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="days_in_waiting_list"
-              DTS:DTSID="{1EBC1C6D-311E-4ECF-95E5-46F8AD60EA49}"
+              DTS:DTSID="{2C04D54B-1311-4D54-A944-3003402A8A81}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -320,7 +320,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="customer_type"
-              DTS:DTSID="{9ACE57E9-6CE8-4404-A102-931A0999D667}"
+              DTS:DTSID="{B38F378B-46C3-4F19-8F0D-FCE456C2BD83}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -330,7 +330,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="adr"
-              DTS:DTSID="{768BCC2F-74B7-49DE-A585-F95A4729B832}"
+              DTS:DTSID="{624EC152-98C7-40CB-AC80-E990813984B7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -340,7 +340,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="OLE DB Source.revenue"
-              DTS:DTSID="{D7C1F5D9-B312-42D2-80A3-4736797843CE}"
+              DTS:DTSID="{273025A4-65B7-4096-BE89-6A6E5868EB9C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -348,7 +348,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="required_car_parking_spaces"
-              DTS:DTSID="{0E594A45-1D94-4BE5-9B0D-603CEE0AB73D}"
+              DTS:DTSID="{7B9B73BD-90AA-4335-9AF4-FED881C943CC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -356,7 +356,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="total_of_special_requests"
-              DTS:DTSID="{DD37A592-BF3B-499C-9CE1-0BB61ACB3CCE}"
+              DTS:DTSID="{F27CD20D-64A9-4833-AD9A-26AF00BACECA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -365,7 +365,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="reservation_status"
-              DTS:DTSID="{29346340-7572-44A7-9334-ACBA38010171}"
+              DTS:DTSID="{72056C05-E7F9-4E0A-843C-BA2189BAF368}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -374,7 +374,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="reservation_status_date"
-              DTS:DTSID="{BCE39944-9F86-4409-A6DA-EDA8EF64BCF7}"
+              DTS:DTSID="{F347EECD-4214-4C72-A3F3-4749D6B560E7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -383,7 +383,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="load_date"
-              DTS:DTSID="{6B19DDF4-7F91-42C3-95E1-C86A36C55ECF}"
+              DTS:DTSID="{07E4EEFE-7B0E-40AC-837E-E9002F682CCE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -391,7 +391,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="total_guests_int"
-              DTS:DTSID="{1B7858BC-D883-441F-9735-8A2E1CE50018}"
+              DTS:DTSID="{5F2B4541-790C-4920-88A2-714D68AAEE68}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -399,7 +399,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="total_nights_int"
-              DTS:DTSID="{51DA0ADE-6150-47B9-8101-950A6C22D250}"
+              DTS:DTSID="{ECE30AA8-112D-45F8-BCF3-051A0C97E980}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -409,7 +409,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="adr_decimal"
-              DTS:DTSID="{16118D19-4B1B-4DD4-A6B4-9299EEE4445F}"
+              DTS:DTSID="{31CA054A-E540-4B56-A2E1-639D3BF9DCDE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -419,7 +419,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Derived Column.revenue"
-              DTS:DTSID="{815404B7-F3E1-4900-8FFA-798461C00FB9}"
+              DTS:DTSID="{80E042CB-9D53-4915-A97A-FE035D3A44F9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -427,7 +427,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="Derived Column.room_changed_flag"
-              DTS:DTSID="{FCAAA013-8F44-465A-BC02-B4E42F709170}"
+              DTS:DTSID="{8D4A8C0C-2D7F-425A-9BA2-2D5D71584CD1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -435,7 +435,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="Derived Column.arrival_full_date"
-              DTS:DTSID="{5D2B8553-2E7C-408D-B6C0-FD13D764C752}"
+              DTS:DTSID="{02AF1FD6-45B8-412F-82A1-C6F185ECB5B3}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -450,7 +450,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost;Initial Catalog=HotelBooking_Staging;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-PKG_Load_HotelBooking_MERGED-{456AE4F3-1B72-4FA6-B814-D8C5A65277F5}CM_HotelBooking_Staging;" />
+          DTS:ConnectionString="Data Source=LAPTOP-DHGLBUFC\SQLEXPRESS04;Initial Catalog=HotelBooking_Staging;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-PKG_Load_HotelBooking_MERGED-{456AE4F3-1B72-4FA6-B814-D8C5A65277F5}CM_HotelBooking_Staging;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -462,7 +462,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=MSI\SQLEXPRESS;Initial Catalog=HotelBooking_Staging;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{EF087C19-54D9-43DC-A1C5-D4B988936649}LAPTOP-8O7J7URV\SQLEXPRESS.HotelBooking_Staging;" />
+          DTS:ConnectionString="Data Source=LAPTOP-DHGLBUFC\SQLEXPRESS04;Initial Catalog=HotelBooking_Staging;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{EF087C19-54D9-43DC-A1C5-D4B988936649}LAPTOP-8O7J7URV\SQLEXPRESS.HotelBooking_Staging;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -479,7 +479,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Nhom6_Khodl\Nhom6_Khodl\02_Python_Validation\output\staging_cleaned_bookings.csv">
+          DTS:ConnectionString="D:\Code C++\NHOM6_KHODL-main\02_Python_Validation\output\staging_cleaned_bookings.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -488,7 +488,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="hotel"
-              DTS:DTSID="{58A58DB3-BD50-403B-BC49-864CEC21E267}"
+              DTS:DTSID="{FBACE7FA-96AF-4380-8481-2D8F95815AF0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -497,7 +497,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="is_canceled"
-              DTS:DTSID="{6B3FC0EA-CC90-4754-B09D-2406BB2DAA6F}"
+              DTS:DTSID="{27C6D669-B876-482F-B9EE-24CE4086DE5F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -506,7 +506,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="lead_time"
-              DTS:DTSID="{D2E4F5AC-F8DE-409A-BE26-188E24FDBD6E}"
+              DTS:DTSID="{728FE23B-E330-449E-870B-92A128731F28}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -515,7 +515,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="arrival_date_year"
-              DTS:DTSID="{BD480393-D73E-473E-8C58-B94E67511334}"
+              DTS:DTSID="{BE58583E-4037-42F4-BE11-11E3D36FD522}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -524,7 +524,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="arrival_date_month"
-              DTS:DTSID="{D65E44C3-ACBE-41DB-8644-E0E5BA8F3E4F}"
+              DTS:DTSID="{2BA5043F-4843-4CA7-96D5-0470DF60E9DD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -533,7 +533,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="arrival_date_week_number"
-              DTS:DTSID="{2AAB8584-FAD4-4CF0-B184-E6BA3357328A}"
+              DTS:DTSID="{263B8408-6EAD-416C-BAAF-A15889C4DDA2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -542,7 +542,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="arrival_date_day_of_month"
-              DTS:DTSID="{2C975B5F-AEC1-42C4-8DC6-895055E9701B}"
+              DTS:DTSID="{E4C5B94E-FBF8-4ED6-94FD-0581B78B86FB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -551,7 +551,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="stays_in_weekend_nights"
-              DTS:DTSID="{FFCD2B85-C802-49C6-A307-C7660E2B4C55}"
+              DTS:DTSID="{B31B2CFC-3A52-4A76-8B78-6C351D77BBCB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -560,7 +560,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="stays_in_week_nights"
-              DTS:DTSID="{9C481A78-8BF6-4680-B141-DA0555CBC358}"
+              DTS:DTSID="{D07AE04E-3C61-4DB9-A1D1-F34F512833E8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -569,7 +569,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="adults"
-              DTS:DTSID="{F4BF2972-73EB-4C06-9C19-8FC62CAB6725}"
+              DTS:DTSID="{A3ED80F1-1663-4F0C-9E66-9E7A83854CC5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -578,7 +578,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="children"
-              DTS:DTSID="{1575F069-3908-45D6-8ECB-51545525C708}"
+              DTS:DTSID="{3E7D4404-0E7F-4BA3-A74A-AB68DBB23EAF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -587,7 +587,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="babies"
-              DTS:DTSID="{37952FCE-872B-42FC-8517-9955C9103FD4}"
+              DTS:DTSID="{F5E5DF73-765C-4EB9-8D47-F6E94AB5CAB1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -596,7 +596,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="meal"
-              DTS:DTSID="{A37D924B-F32E-4070-A206-9464568116BC}"
+              DTS:DTSID="{4BECF7FA-C446-42C8-BAFE-468A756E6BDB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -605,7 +605,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="country"
-              DTS:DTSID="{F28522AA-5593-4389-9443-3E1524F507BC}"
+              DTS:DTSID="{5B98421C-78FD-459B-B2E7-E2B6BC113F2B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -614,7 +614,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="market_segment"
-              DTS:DTSID="{D59B52BA-ECEA-4987-8EF3-348BF5B416B7}"
+              DTS:DTSID="{0A88E385-C798-4F26-BF9E-8BDAE3620955}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -623,7 +623,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="distribution_channel"
-              DTS:DTSID="{53046595-4251-4C84-AF0E-795F226D91DC}"
+              DTS:DTSID="{6D2D9B06-65C1-40DA-96D2-FBF5CFC068A5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -632,7 +632,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="is_repeated_guest"
-              DTS:DTSID="{25980F32-EB98-4332-BEFE-31C112A36D7A}"
+              DTS:DTSID="{FA965B4D-0712-4C4F-8522-6A10BA36A75F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -641,7 +641,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="previous_cancellations"
-              DTS:DTSID="{706EF8F5-83EC-4E6D-8C59-800948635053}"
+              DTS:DTSID="{70971A19-6960-41C3-8F25-861D94760E12}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -650,7 +650,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="previous_bookings_not_canceled"
-              DTS:DTSID="{BAEAC7B4-C672-45FA-A0AE-17990C8D10BD}"
+              DTS:DTSID="{59394B98-DABA-4D1B-8D8F-E4379A83D236}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -659,7 +659,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="reserved_room_type"
-              DTS:DTSID="{90033BD2-708F-42E4-ACB6-DCCC0CF3DBBD}"
+              DTS:DTSID="{5B5303DD-3DA3-4CE0-BAEF-3B81D2E54DD2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -668,7 +668,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="assigned_room_type"
-              DTS:DTSID="{5E38862E-DB9A-42CC-B5D8-F33521CC7EC6}"
+              DTS:DTSID="{35F74797-F191-46F9-8875-3EBB1815F49F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -677,7 +677,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="booking_changes"
-              DTS:DTSID="{AC50D976-BC65-4FE5-BA3B-622ED6BA4E77}"
+              DTS:DTSID="{9D5AF61C-A394-4EF7-8414-0EB83C502C3C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -686,7 +686,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="deposit_type"
-              DTS:DTSID="{9F6ACFEF-B2A7-450F-88AC-AE2AB7CBCDD6}"
+              DTS:DTSID="{5F0DE1B8-0D12-4581-9CA6-E2084A03A3A9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -695,7 +695,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="agent"
-              DTS:DTSID="{575518AD-505C-4115-8534-01F8ECE3DE74}"
+              DTS:DTSID="{3B318F51-D5DF-44D5-8A0F-10D2AA31BD4C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -704,7 +704,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="company"
-              DTS:DTSID="{7ADFF883-1E54-4EAC-869B-5E10FECCD5A5}"
+              DTS:DTSID="{05A3A529-1D30-435A-849B-88A77D30FDA9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -713,7 +713,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="days_in_waiting_list"
-              DTS:DTSID="{EA994410-50B7-47A0-8E49-47E96B9A8C90}"
+              DTS:DTSID="{9EA10F8A-F8F4-4E60-AB82-A6EC1502D0E0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -722,7 +722,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="customer_type"
-              DTS:DTSID="{550E689C-469B-4C54-B945-87BFE95F1777}"
+              DTS:DTSID="{91385086-806C-4A73-8C1A-DEAF6A6CA529}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -731,7 +731,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="adr"
-              DTS:DTSID="{9BC9F78D-B5E4-40BD-B804-C32010E26E4A}"
+              DTS:DTSID="{D6233A2F-4670-4CAF-AF43-779EE22C3347}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -740,7 +740,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="required_car_parking_spaces"
-              DTS:DTSID="{B7049BD7-6EE6-4F4E-A78F-39425B863039}"
+              DTS:DTSID="{3A3CB0C5-7417-4E91-B797-525B401AF6CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -749,7 +749,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="total_of_special_requests"
-              DTS:DTSID="{4C34EF72-E7D5-4E98-BD0D-C335E4D307E3}"
+              DTS:DTSID="{74F00E8F-B202-424D-B29E-2698ADAEF488}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -758,7 +758,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="reservation_status"
-              DTS:DTSID="{44FE2B8E-18C7-4CD8-BCF1-55F37767E778}"
+              DTS:DTSID="{FEF966D7-C6B4-4838-8C37-762D4687392D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -767,7 +767,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="reservation_status_date"
-              DTS:DTSID="{C7C50172-3551-45E6-A3A0-EAF6B4B5EF33}"
+              DTS:DTSID="{B3DAB5B3-3EDB-4293-AC14-27CCAA1D9A7F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -776,7 +776,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="arrival_date_month_num"
-              DTS:DTSID="{C4B2F65B-50D2-4412-A19F-0820FF1AFD75}"
+              DTS:DTSID="{059A8DCE-08A5-4C0C-ADC3-EB664E480102}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -785,7 +785,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="arrival_full_date"
-              DTS:DTSID="{EAD122F3-90BD-4D88-84AB-ACACAA2F8C99}"
+              DTS:DTSID="{88E21AE7-809F-4743-8A35-CC41972DAFF9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -794,7 +794,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="total_nights"
-              DTS:DTSID="{8A3064EC-F5F4-438C-9F41-3AEF81490787}"
+              DTS:DTSID="{C14499D3-B698-45D6-9AD3-01DBC7DD8085}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -803,7 +803,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="total_guests"
-              DTS:DTSID="{E239EC63-BAA2-46A4-BE07-D11997DE88B2}"
+              DTS:DTSID="{854891F1-7398-4174-AB32-A869135F6B41}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -812,7 +812,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="revenue"
-              DTS:DTSID="{A216C2F5-3E3A-430F-911F-0A19C01B3326}"
+              DTS:DTSID="{2E9B8AC5-7700-4650-94FC-1B8E4FA0CF42}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -821,7 +821,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="booking_year_month"
-              DTS:DTSID="{C63FF371-22A0-4C72-A4BF-97234AA5B3DD}"
+              DTS:DTSID="{2612ED2E-38EE-4F49-8466-2A790F9E462D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -830,7 +830,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="room_changed_flag"
-              DTS:DTSID="{6F6AD341-E0FF-4630-826B-1A5CDDA8D725}"
+              DTS:DTSID="{F88E56FF-42AB-40F7-A3FF-B2CCC8FA3AAC}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -845,7 +845,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=LAPTOP-8O7J7URV\SQLEXPRESS;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-PKG_Load_HotelBooking_MERGED-{665852F8-B26F-4F73-A7ED-D3189CC63C81}LAPTOP-8O7J7URV\SQLEXPRESS;" />
+          DTS:ConnectionString="Data Source=LAPTOP-DHGLBUFC\SQLEXPRESS04;Initial Catalog=HotelBooking_DW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-PKG_Load_HotelBooking_MERGED-{665852F8-B26F-4F73-A7ED-D3189CC63C81}LAPTOP-8O7J7URV\SQLEXPRESS;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -1520,18 +1520,18 @@ WHERE customer_type IS NOT NULL
                       externalMetadataColumnId="Package\DFT_Dim_Date\DST_Dim_Date.Inputs[OLE DB Destination Input].ExternalColumns[day_of_month]"
                       lineageId="Package\DFT_Dim_Date\SRC_Staging_Dates.Outputs[OLE DB Source Output].Columns[day_of_month]" />
                     <inputColumn
+                      refId="Package\DFT_Dim_Date\DST_Dim_Date.Inputs[OLE DB Destination Input].Columns[quarter]"
+                      cachedDataType="i4"
+                      cachedName="quarter"
+                      externalMetadataColumnId="Package\DFT_Dim_Date\DST_Dim_Date.Inputs[OLE DB Destination Input].ExternalColumns[quarter]"
+                      lineageId="Package\DFT_Dim_Date\SRC_Staging_Dates.Outputs[OLE DB Source Output].Columns[quarter]" />
+                    <inputColumn
                       refId="Package\DFT_Dim_Date\DST_Dim_Date.Inputs[OLE DB Destination Input].Columns[month_name]"
                       cachedDataType="wstr"
                       cachedLength="30"
                       cachedName="month_name"
                       externalMetadataColumnId="Package\DFT_Dim_Date\DST_Dim_Date.Inputs[OLE DB Destination Input].ExternalColumns[month_name]"
                       lineageId="Package\DFT_Dim_Date\SRC_Staging_Dates.Outputs[OLE DB Source Output].Columns[month_name]" />
-                    <inputColumn
-                      refId="Package\DFT_Dim_Date\DST_Dim_Date.Inputs[OLE DB Destination Input].Columns[quarter]"
-                      cachedDataType="i4"
-                      cachedName="quarter"
-                      externalMetadataColumnId="Package\DFT_Dim_Date\DST_Dim_Date.Inputs[OLE DB Destination Input].ExternalColumns[quarter]"
-                      lineageId="Package\DFT_Dim_Date\SRC_Staging_Dates.Outputs[OLE DB Source Output].Columns[quarter]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -7902,64 +7902,64 @@ where [refTable].[room_type_code] = ?</property>
               startId="Package\DFT_Load_Fact_Booking\Conditional Split.Outputs[INVALID]" />
             <path
               refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output11]"
-              endId="Package\DFT_Load_Fact_Booking\LK_Hotel.Inputs[Lookup Input]"
+              endId="Package\DFT_Load_Fact_Booking\Derived Column 1.Inputs[Derived Column Input]"
               name="Lookup Match Output"
-              startId="Package\DFT_Load_Fact_Booking\LK_Date_Status.Outputs[Lookup Match Output]" />
+              startId="Package\DFT_Load_Fact_Booking\LK_Agent.Outputs[Lookup Match Output]" />
             <path
               refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output10]"
-              endId="Package\DFT_Load_Fact_Booking\LK_Meal.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\DFT_Load_Fact_Booking\LK_AssignedRoomType.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output9]"
-              endId="Package\DFT_Load_Fact_Booking\LK_Country.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\DFT_Load_Fact_Booking\LK_Hotel.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output8]"
-              endId="Package\DFT_Load_Fact_Booking\LK_MarketSegment.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\DFT_Load_Fact_Booking\LK_Country.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output7]"
-              endId="Package\DFT_Load_Fact_Booking\LK_DistributionChannel.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\DFT_Load_Fact_Booking\LK_MarketSegment.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output6]"
-              endId="Package\DFT_Load_Fact_Booking\LK_ReservedRoomType.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\DFT_Load_Fact_Booking\LK_DistributionChannel.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output5]"
-              endId="Package\DFT_Load_Fact_Booking\LK_AssignedRoomType.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\DFT_Load_Fact_Booking\LK_ReservedRoomType.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output4]"
-              endId="Package\DFT_Load_Fact_Booking\LK_CustomerType.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\DFT_Load_Fact_Booking\LK_Meal.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output3]"
-              endId="Package\DFT_Load_Fact_Booking\LK_Date_Status.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\DFT_Load_Fact_Booking\LK_Date_Arrival.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output2]"
-              endId="Package\DFT_Load_Fact_Booking\LK_DepositType.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\DFT_Load_Fact_Booking\LK_CustomerType.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output1]"
               endId="Package\DFT_Load_Fact_Booking\LK_Agent.Inputs[Lookup Input]"
               name="Lookup Match Output"
               startId="Package\DFT_Load_Fact_Booking\LK_DepositType.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output]"
-              endId="Package\DFT_Load_Fact_Booking\Derived Column 1.Inputs[Derived Column Input]"
+              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output9]"
+              endId="Package\DFT_Load_Fact_Booking\LK_DepositType.Inputs[Lookup Input]"
               name="Lookup Match Output"
-              startId="Package\DFT_Load_Fact_Booking\LK_Agent.Outputs[Lookup Match Output]" />
+              startId="Package\DFT_Load_Fact_Booking\LK_CustomerType.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output8]"
+              endId="Package\DFT_Load_Fact_Booking\LK_Date_Status.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\DFT_Load_Fact_Booking\LK_Date_Arrival.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output7]"
+              endId="Package\DFT_Load_Fact_Booking\LK_CustomerType.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\DFT_Load_Fact_Booking\LK_Meal.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output6]"
+              endId="Package\DFT_Load_Fact_Booking\LK_AssignedRoomType.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\DFT_Load_Fact_Booking\LK_ReservedRoomType.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output5]"
+              endId="Package\DFT_Load_Fact_Booking\LK_ReservedRoomType.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\DFT_Load_Fact_Booking\LK_DistributionChannel.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output4]"
+              endId="Package\DFT_Load_Fact_Booking\LK_DistributionChannel.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\DFT_Load_Fact_Booking\LK_MarketSegment.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output3]"
+              endId="Package\DFT_Load_Fact_Booking\LK_MarketSegment.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\DFT_Load_Fact_Booking\LK_Country.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output2]"
+              endId="Package\DFT_Load_Fact_Booking\LK_Country.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\DFT_Load_Fact_Booking\LK_Hotel.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output1]"
+              endId="Package\DFT_Load_Fact_Booking\LK_Meal.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\DFT_Load_Fact_Booking\LK_AssignedRoomType.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output]"
+              endId="Package\DFT_Load_Fact_Booking\LK_Hotel.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\DFT_Load_Fact_Booking\LK_Date_Status.Outputs[Lookup Match Output]" />
             <path
               refId="Package\DFT_Load_Fact_Booking.Paths[OLE DB Source Output]"
               endId="Package\DFT_Load_Fact_Booking\Derived Column.Inputs[Derived Column Input]"
@@ -10138,7 +10138,7 @@ where [refTable].[room_type_code] = ?</property>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{A9A00873-AAC9-4FB9-8C2D-A7794446ADAC}"
           SQLTask:BypassPrepare="False"
-          SQLTask:SqlStatementSource="DELETE FROM dbo.Fact_Booking;&#xA;&#xA;DELETE FROM dbo.Dim_Hotel;&#xA;DBCC CHECKIDENT ('dbo.Dim_Hotel', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Guest_Country;&#xA;DBCC CHECKIDENT ('dbo.Dim_Guest_Country', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Market_Segment;&#xA;DBCC CHECKIDENT ('dbo.Dim_Market_Segment', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Distribution_Channel;&#xA;DBCC CHECKIDENT ('dbo.Dim_Distribution_Channel', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Room_Type;&#xA;DBCC CHECKIDENT ('dbo.Dim_Room_Type', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Meal;&#xA;DBCC CHECKIDENT ('dbo.Dim_Meal', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Customer_Type;&#xA;DBCC CHECKIDENT ('dbo.Dim_Customer_Type', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Deposit_Type;&#xA;DBCC CHECKIDENT ('dbo.Dim_Deposit_Type', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Agent;&#xA;DBCC CHECKIDENT ('dbo.Dim_Agent', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Date;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="DELETE FROM dbo.Fact_Booking;&#xA;&#xA;TRUNCATE TABLE HotelBooking_Staging.dbo.Staging_Bookings;&#xA;&#xA;DELETE FROM dbo.Dim_Hotel;&#xA;DBCC CHECKIDENT ('dbo.Dim_Hotel', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Guest_Country;&#xA;DBCC CHECKIDENT ('dbo.Dim_Guest_Country', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Market_Segment;&#xA;DBCC CHECKIDENT ('dbo.Dim_Market_Segment', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Distribution_Channel;&#xA;DBCC CHECKIDENT ('dbo.Dim_Distribution_Channel', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Room_Type;&#xA;DBCC CHECKIDENT ('dbo.Dim_Room_Type', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Meal;&#xA;DBCC CHECKIDENT ('dbo.Dim_Meal', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Customer_Type;&#xA;DBCC CHECKIDENT ('dbo.Dim_Customer_Type', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Deposit_Type;&#xA;DBCC CHECKIDENT ('dbo.Dim_Deposit_Type', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Agent;&#xA;DBCC CHECKIDENT ('dbo.Dim_Agent', RESEED, 0);&#xA;&#xA;DELETE FROM dbo.Dim_Date;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -11625,7 +11625,7 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output11]"
+          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output]"
           TopLeft="1161.98331831917,201.200000176695">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11644,12 +11644,12 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="35.4002742177972,5,96.3827734375,11.609375"
+              BoundingBox="35.400274217797,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output10]"
+          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output1]"
           TopLeft="2166.28330185091,340.56667384502">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11685,7 +11685,7 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output9]"
+          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output2]"
           TopLeft="1457.46664019227,199.675001555226">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11704,12 +11704,12 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="47.2002778023582,5,96.3827734375,11.609375"
+              BoundingBox="47.200277802358,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output8]"
+          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output3]"
           TopLeft="1722.54996923448,220.633335254689">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11745,7 +11745,7 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output7]"
+          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output4]"
           TopLeft="1177.56664616184,322.033336815436">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11764,12 +11764,12 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="33.2336111547288,5,96.3827734375,11.609375"
+              BoundingBox="33.233611154729,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output6]"
+          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output5]"
           TopLeft="1535.9166419088,323.000003978544">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11788,12 +11788,12 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="36.0586122108526,5,96.3827734375,11.609375"
+              BoundingBox="36.0586122108525,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output5]"
+          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output6]"
           TopLeft="1903.916639768,321.775005817124">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11812,12 +11812,12 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="31.6419443227024,5,96.3827734375,11.609375"
+              BoundingBox="31.6419443227025,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output4]"
+          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output7]"
           TopLeft="1699.83330361297,459.592863159589">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11836,12 +11836,12 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-134.243764591857,5,96.3827734375,11.609375"
+              BoundingBox="-134.243764591858,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output3]"
+          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output8]"
           TopLeft="846.816650355278,204.049999776068">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11860,12 +11860,12 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="28.4419472631972,5,96.3827734375,11.609375"
+              BoundingBox="28.441947263197,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output2]"
+          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output9]"
           TopLeft="1355.42854786676,460.773816853453">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11889,7 +11889,7 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output1]"
+          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output10]"
           TopLeft="1077.5202192511,483.878579150906">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11913,7 +11913,7 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output]"
+          Id="Package\DFT_Load_Fact_Booking.Paths[Lookup Match Output11]"
           TopLeft="1137.58331413691,618.792861603247">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11932,7 +11932,7 @@ where [refTable].[room_type_code] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="59.1776610524996,5,96.3827734375,11.609375"
+              BoundingBox="59.1776610524995,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -11991,9 +11991,7 @@ where [refTable].[room_type_code] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="80.9718213740159,5,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
